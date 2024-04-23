@@ -1,0 +1,10 @@
+# Creating the master GUI for python music player
+root = Tk()
+root.geometry('700x220')
+root.title('PythonGeeks Music Player')
+root.resizable(0, 0)
+
+
+# Finalizing the GUI
+root.update()
+root.mainloop()
